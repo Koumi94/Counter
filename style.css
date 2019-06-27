@@ -1,4 +1,16 @@
 .body{
     padding: 0½;
     margin: 0%;
+    background-color: black;
+    
+}
+.header{
+    padding: 15%;
+    margin: 60%;
+    background-color: blue;
+    position: inherit;
+    
+}
+.header-first-title{
+    text-align: center;
 }
