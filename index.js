@@ -20,3 +20,9 @@ function countdown() {
   }
   setTimeout("countdown()", 1000);
 }
+
+var count = 0;
+$('#butonClick').on("click", function (event) {
+  count += 1;
+  document.getElementById('viewClick').innerHTML = count;
+});
