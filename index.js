@@ -2,8 +2,14 @@ $("#buttonTest").on("click", function (event) {
   alert("index.js is run 👌");
 });
 
+var statusButtonStart = true;
+var second = 10;
 $('#buttonStart').on("click", function (event) {
-  countdown();
+  if (statusButtonStart) {
+    statusButtonStart = false;
+    countdown();
+    document.getElementById('buttonStart').setAttribute('style', 'visibility:hidden');
+  }
 });
 
 function countdown() {
