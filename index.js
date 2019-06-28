@@ -6,7 +6,6 @@ $('#buttonStart').on("click", function (event) {
   countdown();
 });
 
-var second = 10;
 function countdown() {
   if (second != 0) {
     second -= 1;
@@ -15,6 +14,8 @@ function countdown() {
   else {
     alert('countdown complete');
     document.getElementById('viewSecond').innerHTML = 10;
+    statusButtonStart = true;
+    document.getElementById('buttonStart').setAttribute('style', 'visibility:visible');
     second = 10;
     return;
   }
@@ -23,6 +24,9 @@ function countdown() {
 
 var count = 0;
 $('#butonClick').on("click", function (event) {
+  countClick();
+});
+function countClick() {
   count += 1;
   document.getElementById('viewClick').innerHTML = count;
-});
+}
