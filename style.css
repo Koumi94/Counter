@@ -5,21 +5,27 @@
   
 body{
     font-family: "lato", sans-serif;
-  font-weight: 400;
+  font-weight: 10px;
   font-size: 16px;
   line-height: 1.7;
-  color: #777;
   padding: 20px; 
  
-  background-image: url(./img/bakground.jpg);
+  
 }
 .header{
-    padding: 15%;
-    margin: 60%;
-    background-color: blue;
+    padding: 5%;
+    margin: 0%;
     position: inherit;
-   
+    background-image: url(./img/bakground.jpg);
+    
 }
-.header-first-title{
+.header__first-title{
+    text-align: center;
+}
+.button-countdown{
+    background-color:red;
+    border-style:1px;
+    color: #ccc;
+    border-color:#000;
     text-align: center;
 }

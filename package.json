@@ -1,0 +1,22 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "when you click on the button it will increase the number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koumi94/Counter.git"
+  },
+  "author": "muaz and ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koumi94/Counter/issues"
+  },
+  "homepage": "https://github.com/Koumi94/Counter#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
